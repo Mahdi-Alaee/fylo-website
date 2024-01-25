@@ -14,9 +14,10 @@ function App() {
     <ThemeContext.Provider
       value={{
         isDark,
+        setIsDark,
       }}
     >
-      <div className="">
+      <div className={`${isDark ? "dark" : ""}`}>
         <div className="min-h-screen bg-inherit font-opensans dark:text-white dark:bg-darkBlue">
           <Header />
         </div>
