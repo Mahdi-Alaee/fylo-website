@@ -7,12 +7,12 @@ function Header() {
   console.log(isDark);
 
   return (
-    <header className="flex flex-col gap-y-8 items-center py-10 px-10 md:flex-row md:justify-between">
+    <header className="flex flex-col gap-y-6 items-center py-10 px-10 md:flex-row md:justify-between">
       {/* icon */}
       <div className="bg-logo-light-mode dark:bg-logo-dark-mode w-48 h-14 bg-no-repeat"></div>
 
       {/* menu */}
-      <ul className="flex gap-x-6 md:gap-x-10">
+      <ul className="flex gap-x-4 items-center md:gap-x-10">
         {/* item 1 */}
         <li>
           <a className="hover:text-accentCyan" href="#">Features</a>
@@ -24,7 +24,7 @@ function Header() {
         </li>
 
         {/* item 3 */}
-        <li>
+        <button className="hover:bg-slate-100 p-2 flex justify-center rounded-lg items-center">
           {/* dark SVG icon */}
           <svg
             id="theme-toggle-dark-icon"
@@ -49,7 +49,7 @@ function Header() {
               clip-rule="evenodd"
             ></path>
           </svg>
-        </li>
+        </button>
       </ul>
     </header>
   );
