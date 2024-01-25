@@ -7,17 +7,22 @@ function Header() {
   console.log(isDark);
 
   return (
-    <header className="flex py-14 px-8">
+    <header className="flex flex-col gap-y-8 items-center py-10 px-10 md:flex-row md:justify-between">
       {/* icon */}
-      <div className="bg-logo-light-mode dark:bg-logo-dark-mode w-60 h-24 bg-no-repeat"></div>
+      <div className="bg-logo-light-mode dark:bg-logo-dark-mode w-48 h-14 bg-no-repeat"></div>
 
       {/* menu */}
-      <ul>
+      <ul className="flex gap-x-6 md:gap-x-10">
         {/* item 1 */}
         <li>
-          <a href="#">Features</a>
+          <a className="hover:text-accentCyan" href="#">Features</a>
         </li>
-        
+
+        {/* item 2 */}
+        <li>
+          <a className="hover:text-accentCyan" href="#">Testimonials</a>
+        </li>
+
         {/* item 3 */}
         <li>
           {/* dark SVG icon */}
