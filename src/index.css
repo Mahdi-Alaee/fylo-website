@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Raleway;
+    src: url(/fonts/Raleway/Raleway-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/fonts/open-sans/OpenSans-Regular.ttf) format(truetype);
+}
