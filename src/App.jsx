@@ -16,7 +16,7 @@ function App() {
         isDark,
       }}
     >
-      <div className="dark">
+      <div className="">
         <div className="min-h-screen bg-inherit font-opensans dark:text-white dark:bg-darkBlue">
           <Header />
         </div>
