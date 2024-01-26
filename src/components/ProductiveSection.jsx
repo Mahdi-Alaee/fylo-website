@@ -14,7 +14,7 @@ function ProductiveSection() {
         {/* section content */}
         <div className="flex flex-col gap-y-4 md:w-1/2">
           {/* title */}
-          <h2 className="text-xl font-bold max-w-md md:text-4xl">Stay productive, wherever you are</h2>
+          <h2 className="text-xl font-bold max-w-sm md:text-4xl">Stay productive, wherever you are</h2>
 
           {/* paragraph 1 */}
           <p className="md:text-lg">
