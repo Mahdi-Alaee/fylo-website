@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ThemeContext from "./Context/themeContext";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import FeaturesSection from "./components/FeaturesSection";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -26,6 +27,7 @@ function App() {
 
           <main>
             <HeroSection />
+            <FeaturesSection />
           </main>
 
 
