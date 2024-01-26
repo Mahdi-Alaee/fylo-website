@@ -17,7 +17,7 @@ function HeroSection() {
       </p>
 
       <a
-        className="bg-accentCyan mt-8 inline-block px-16 py-3 rounded-full"
+        className="bg-accentCyan mt-8 inline-block px-16 py-3 rounded-full hover:scale-95"
         href="#"
       >
         Get Started
