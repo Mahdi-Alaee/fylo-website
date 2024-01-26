@@ -7,7 +7,9 @@ function App() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    setIsDark(true);
+    if(localStorage.getItem('theme') === 'dark'){
+      setIsDark(true);
+    }
   }, []);
 
   return (
@@ -25,6 +27,8 @@ function App() {
           <main>
             <HeroSection />
           </main>
+
+
         <br /><br /><br />
         <br /><br /><br />
 

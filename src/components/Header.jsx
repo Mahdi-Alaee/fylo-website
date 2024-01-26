@@ -6,6 +6,14 @@ function Header() {
 
   console.log(isDark);
 
+  const toggleThemeHandler = () => {
+    setIsDark((prev) => {
+      const newTheme = prev === true ? 'light' : 'dark';
+      localStorage.setItem("theme", newTheme);
+      return !prev;
+    });
+  }
+
   return (
     <header className="flex flex-col gap-y-6 items-center py-10 px-10 md:flex-row md:justify-between">
       {/* icon */}
@@ -29,7 +37,7 @@ function Header() {
 
         {/* item 3 */}
         <button
-          onClick={() => setIsDark((prev) => !prev)}
+          onClick={toggleThemeHandler}
           className="hover:bg-slate-100 focus:ring-4 focus:ring-slate-200 
           dark:focus:ring-slate-700 dark:hover:bg-slate-700 p-2 flex 
           justify-center rounded-lg items-center"
