@@ -29,7 +29,6 @@ function App() {
         <br /><br /><br />
 
         </div>
-        test for see online change and pull changes
       </div>
     </ThemeContext.Provider>
   );
