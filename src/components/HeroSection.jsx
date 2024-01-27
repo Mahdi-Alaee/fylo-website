@@ -30,7 +30,7 @@ function HeroSection() {
         </p>
 
         <Button
-          className="btn"
+          className="btn mt-8 px-16 py-3"
           href="#"
         >
           Get Started

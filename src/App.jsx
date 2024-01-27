@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import FeaturesSection from "./components/FeaturesSection";
 import ProductiveSection from "./components/ProductiveSection";
 import Comments from "./components/Comments/Comments";
+import EarlyAccessForm from "./components/EarlyAccessForm";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -32,6 +33,7 @@ function App() {
             <FeaturesSection />
             <ProductiveSection />
             <Comments />
+            <EarlyAccessForm />
           </main>
 
 

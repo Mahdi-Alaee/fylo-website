@@ -13,5 +13,5 @@
 }
 
 .btn{
-    @apply bg-accentCyan mt-8 inline-block px-16 py-3 rounded-full hover:scale-95;
+    @apply bg-accentCyan inline-block rounded-full hover:scale-95;
 }
