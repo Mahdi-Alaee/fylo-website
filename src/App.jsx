@@ -6,6 +6,7 @@ import FeaturesSection from "./components/FeaturesSection";
 import ProductiveSection from "./components/ProductiveSection";
 import Comments from "./components/Comments/Comments";
 import EarlyAccessForm from "./components/EarlyAccessForm";
+import Footer from "./components/Footer";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -34,11 +35,8 @@ function App() {
             <ProductiveSection />
             <Comments />
             <EarlyAccessForm />
+            <Footer />
           </main>
-
-
-        <br /><br /><br />
-        <br /><br /><br />
 
         </div>
       </div>
