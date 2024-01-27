@@ -38,7 +38,7 @@ function ProductiveSection() {
                 width="16"
                 height="16"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
               >
                 <defs>
                   <circle id="b" cx="6" cy="6" r="6" />
@@ -62,10 +62,10 @@ function ProductiveSection() {
                     />
                   </filter>
                 </defs>
-                <g fill="none" fill-rule="evenodd">
+                <g fill="none" fillRule="evenodd">
                   <g transform="translate(2 2)">
-                    <use fill="#000" filter="url(#a)" xlink:href="#b" />
-                    <use fill="#62E0D9" xlink:href="#b" />
+                    <use fill="#000" filter="url(#a)" xlinkHref="#b" />
+                    <use fill="#62E0D9" xlinkHref="#b" />
                   </g>
                   <path
                     d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
