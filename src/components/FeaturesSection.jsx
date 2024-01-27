@@ -1,6 +1,6 @@
 function FeaturesSection() {
   return (
-    <section className="bg-gray-50 dark:bg-darkBlue1">
+    <section id="features" className="bg-gray-50 pt-12 dark:bg-darkBlue1">
       {/* container */}
       <div className="container mx-auto pb-32 px-6">
         {/* content list */}

@@ -6,11 +6,11 @@ function Header() {
 
   const toggleThemeHandler = () => {
     setIsDark((prev) => {
-      const newTheme = prev === true ? 'light' : 'dark';
+      const newTheme = prev === true ? "light" : "dark";
       localStorage.setItem("theme", newTheme);
       return !prev;
     });
-  }
+  };
 
   return (
     <header className="flex flex-col gap-y-6 items-center py-10 px-10 md:flex-row md:justify-between">
@@ -21,14 +21,14 @@ function Header() {
       <ul className="flex gap-x-4 items-center md:gap-x-10">
         {/* item 1 */}
         <li>
-          <a className="hover:text-accentCyan" href="#">
+          <a className="hover:text-accentCyan" href="#features">
             Features
           </a>
         </li>
 
         {/* item 2 */}
         <li>
-          <a className="hover:text-accentCyan" href="#">
+          <a className="hover:text-accentCyan" href="#comments">
             Testimonials
           </a>
         </li>

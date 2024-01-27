@@ -2,10 +2,10 @@ import Comment from "./componets/Comment";
 
 function Comments() {
   return (
-    <section className="mt-40 container px-6 mx-auto relative grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-12">
+    <section id="comments" className="mt-40 pt-12 container px-6 mx-auto relative grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-12">
       {/* image */}
       <img
-        className="absolute -top-8 left-6 w-10 md:w-20 md:-top-16 md:left-0"
+        className="absolute top-4 left-6 w-10 md:w-20 md:left-0 md:-top-4"
         src="/images/bg-quotes.png"
         alt="quotes"
       />
