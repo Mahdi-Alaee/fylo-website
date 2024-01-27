@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import FeaturesSection from "./components/FeaturesSection";
 import ProductiveSection from "./components/ProductiveSection";
+import Comments from "./components/Comments/Comments";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -30,6 +31,7 @@ function App() {
             <HeroSection />
             <FeaturesSection />
             <ProductiveSection />
+            <Comments />
           </main>
 
 

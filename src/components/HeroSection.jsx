@@ -7,7 +7,7 @@ function HeroSection() {
       id="hero"
     >
       {/* container */}
-      <div className="max-w-2xl mx-auto md:max-w-3xl md:w-max">
+      <div className="max-w-2xl mx-auto lg:max-w-3xl lg:w-max">
         {/* section image */}
         <img
           className="w-full mb-14 mt-2"
