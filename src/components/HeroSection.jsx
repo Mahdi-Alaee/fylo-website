@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function HeroSection() {
   return (
     <section
@@ -27,12 +29,12 @@ function HeroSection() {
           family, and co-workers.
         </p>
 
-        <a
-          className="bg-accentCyan mt-8 inline-block px-16 py-3 rounded-full hover:scale-95"
+        <Button
+          className="btn"
           href="#"
         >
           Get Started
-        </a>
+        </Button>
       </div>
     </section>
   );

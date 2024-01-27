@@ -11,3 +11,7 @@
     font-family: 'Open Sans';
     src: url(/fonts/open-sans/OpenSans-Regular.ttf) format(truetype);
 }
+
+.btn{
+    @apply bg-accentCyan mt-8 inline-block px-16 py-3 rounded-full hover:scale-95;
+}
