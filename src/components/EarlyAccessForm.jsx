@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function EarlyAccessForm() {
   return (
-    <section className="bg-darkBlue1 max-w-4xl rounded-lg px-6 mx-6 mt-44 py-10 flex flex-col gap-y-6 items-center text-center -mb-24 relative z-10 md:mx-auto md:px-20">
+    <section className="bg-gray-200 dark:bg-darkBlue1 max-w-4xl rounded-lg px-6 mx-6 py-10 flex flex-col gap-y-6 items-center text-center -mt-40 relative z-10 md:mx-auto md:px-20">
       {/* title */}
       <h4 className="font-bold text-2xl tracking-wide">Get early access today</h4>
       {/* description */}

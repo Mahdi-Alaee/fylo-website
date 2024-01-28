@@ -35,6 +35,7 @@ function App() {
             <ProductiveSection />
             <Comments />
             <EarlyAccessForm />
+            <div className="pt-72 bg-white dark:bg-darkBlue2 -mt-24"></div>
             <Footer />
           </main>
 

@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="bg-darkBlue2">
       {/* container */}
-      <div className="container mx-auto pt-80 pb-20 px-5 flex flex-col gap-y-24 md:flex-row md:justify-between md:pb-12">
+      <div className="container text-white mx-auto pt-12 pb-20 px-5 flex flex-col gap-y-24 md:flex-row md:justify-between md:pb-12">
         {/* left(contact) */}
         <div>
           {/* phone */}

@@ -1,6 +1,6 @@
 function Comment({body, img, name, job}) {
   return (
-    <div className="bg-darkBlue3 p-12 rounded-lg">
+    <div className="bg-gray-100 dark:bg-darkBlue3 p-12 rounded-lg">
         {/* body */}
       <p className="text-lg">
         {body}
